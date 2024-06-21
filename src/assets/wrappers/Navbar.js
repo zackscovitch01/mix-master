@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.nav`
   background: var(--white);
   .nav-center {
     width: var(--view-width);
     max-width: var(--max-width);
-    margin: 0 auto;
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
     padding: 1.5rem 2rem;
@@ -42,7 +42,7 @@ const Wrapper = styled.nav`
     }
     .nav-links {
       flex-direction: row;
-      margin-top: 0;
+      margin-top: 0rem;
     }
   }
 `;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 const Wrapper = styled.article`
   background: var(--white);
   box-shadow: var(--shadow-2);
@@ -7,7 +7,7 @@ const Wrapper = styled.article`
   grid-template-rows: auto 1fr;
   border-radius: var(--borderRadius);
   :hover {
-    box-shadow: var(--shadow-4);
+    box-shadow: var() (--shadow-4);
   }
   img {
     height: 15rem;

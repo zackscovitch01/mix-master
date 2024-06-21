@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.div`
   header {
@@ -20,6 +20,7 @@ const Wrapper = styled.div`
     line-height: 2;
     margin-bottom: 1rem;
   }
+
   .drink-data {
     margin-right: 0.5rem;
     background: var(--primary-300);
@@ -28,10 +29,12 @@ const Wrapper = styled.div`
     color: var(--primary-700);
     letter-spacing: var(--letterSpacing);
   }
+
   .ing {
     display: inline-block;
     margin-right: 0.5rem;
   }
+
   @media (min-width: 992px) {
     .drink {
       display: grid;
